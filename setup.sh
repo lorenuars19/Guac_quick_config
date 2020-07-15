@@ -1,8 +1,9 @@
 printf "= = = SETUP = = =\n"
 cd ~
 printf "+ + + OMZSH + + +\n"
+zsh
 curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh OH_MY_ZSH-install.sh
-bash OH_MY_ZSH-install.sh --unattended
+./OH_MY_ZSH-install.sh --unattended
 
 printf "+ + + P10K + + +\n"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
