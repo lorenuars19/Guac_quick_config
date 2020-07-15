@@ -18,6 +18,7 @@ source ~/.zshrc
 printf "\033[32m+ + + SSH + + +\n\033[m"
 ssh-keygen
 
-echo "\n\n"
+printf "\n\n\033[33m"
 cat ~/.ssh/id_rsa.pub
+printf "033[m"
 
