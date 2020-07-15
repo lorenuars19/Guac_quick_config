@@ -2,8 +2,7 @@ printf "\033[32m= = = SETUP = = =\n"
 cd ~
 printf "\033[32m+ + + OMZSH + + +\n"
 
-curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh OH_MY_ZSH-install.sh
-./OH_MY_ZSH-install.sh --unattended
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 printf "\033[32m+ + + P10K + + +\n"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
