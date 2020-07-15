@@ -1,3 +1,3 @@
 # Usage
 
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/setup.sh)"`
