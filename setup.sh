@@ -1,7 +1,7 @@
 printf "\033[32m= = = SETUP = = =\n"
 cd ~
 printf "\033[32m+ + + OMZSH + + +\n"
-zsh
+
 curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh OH_MY_ZSH-install.sh
 ./OH_MY_ZSH-install.sh --unattended
 
