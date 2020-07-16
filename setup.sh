@@ -7,17 +7,19 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 printf "\033[32m+ + + P10K + + +\n\033[m"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 
+printf "\033[33m> > > BKP + + +\n\033[m"
 mv .zshrc .old.zshrc
 mv .p10k.zsh .old.p10k.zsh
 
-curl -s https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/zshrc > ~/.zshrc
-curl -s https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/p10k-zsh > ~/.p10k.zsh
+printf "\033[34mV V V DOWNLOAD DOT FILES V V V\n\033[m"
 
-sleep 2
+curl -so https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/zshrc > ~/.zshrc
+curl -so https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/p10k-zsh > ~/.p10k.zsh
 
+printf "\033[34mV V V SOURCE V V V\n\033[m"
 source ~/.zshrc
 
-printf "\033[32m+ + + SSH + + +\n\033[m"
+printf "\033[35m+ + + SSH + + +\n\033[m"
 
 ssh-keygen
 
