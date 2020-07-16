@@ -10,8 +10,8 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 mv .zshrc .old.zshrc
 mv .p10k.zsh .old.p10k.zsh
 
-sh -c "$(curl -s https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/zshrc > ~/.zshrc)"
-sh -c "$(curl -s https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/p10k-zsh > ~/.p10k.zsh)"
+curl -s https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/zshrc > ~/.zshrc
+curl -s https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/p10k-zsh > ~/.p10k.zsh
 
 sleep 2
 
@@ -22,6 +22,8 @@ printf "\033[32m+ + + SSH + + +\n\033[m"
 ssh-keygen
 
 printf "\n\n\033[33m"
+
 cat ~/.ssh/id_rsa.pub
-printf "033[m"
+
+printf "\n\n\033[m"
 
