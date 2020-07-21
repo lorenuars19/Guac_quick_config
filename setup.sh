@@ -11,6 +11,7 @@ printf "\033[33m> > > BKP + + +\n\033[m"
 mv .zshrc .old.zshrc
 mv .p10k.zsh .old.p10k.zsh
 
+clear
 printf "\033[34mV V V DOWNLOAD DOT FILES V V V\n\033[m"
 
 curl -s https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/zshrc -o ~/.zshrc > /dev/null
@@ -27,6 +28,7 @@ ssh-keygen
 
 printf "\n\n\033[33m"
 
+clear
 cat ~/.ssh/id_rsa.pub
 
 printf "\n\n\033[m"
