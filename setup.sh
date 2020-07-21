@@ -20,7 +20,7 @@ curl -s https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/p
 printf "\033[32m+ + + .p10k.zsh \033[m\n"
 
 printf "\033[34mV V V SOURCE V V V\n\033[m"
-source ~/.zshrc > 1&>/dev/null
+source ~/.zshrc > /dev/null 2>&1
 
 printf "\033[35m+ + + SSH + + +\n\033[m"
 
