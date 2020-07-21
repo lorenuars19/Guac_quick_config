@@ -26,9 +26,8 @@ printf "\033[35m+ + + SSH + + +\n\033[m"
 
 ssh-keygen
 
-printf "\n\n\033[33m"
-
 clear
+printf "\n\n\033[33m"
 cat ~/.ssh/id_rsa.pub
 
 printf "\n\n\033[m"
