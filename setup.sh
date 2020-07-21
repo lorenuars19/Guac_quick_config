@@ -13,8 +13,8 @@ mv .p10k.zsh .old.p10k.zsh
 
 printf "\033[34mV V V DOWNLOAD DOT FILES V V V\n\033[m"
 
-curl -so https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/zshrc > ~/.zshrc
-curl -so https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/p10k-zsh > ~/.p10k.zsh
+curl -so "https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/zshrc" > ~/.zshrc
+curl -so "https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/p10k-zsh" > ~/.p10k.zsh
 
 printf "\033[34mV V V SOURCE V V V\n\033[m"
 source ~/.zshrc
