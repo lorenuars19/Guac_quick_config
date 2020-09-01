@@ -19,6 +19,7 @@ printf "\033[32m+ + + .zshrc \033[m\n"
 curl -s https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/p10k-zsh -o ~/.p10k.zsh /dev/null
 printf "\033[32m+ + + .p10k.zsh \033[m\n"
 curl -s https://raw.githubusercontent.com/lorenuars19/Guac_quick_config/master/vimrc -o ~/.vimrc > /dev/null
+mkdir -p .vim
 printf "\033[32m+ + + .vimrc \033[m\n"
 
 printf "\033[34mV V V SOURCE V V V\n\033[m"
